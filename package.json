@@ -1,0 +1,22 @@
+{
+  "name": "vscode-gpatarin-theme",
+  "displayName": "vscode-gpatarin-theme",
+  "description": "My custom personnal theme for VSCode",
+  "publisher": "gpatarin",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "gpatarin Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/My Custom Theme-color-theme.json"
+      }
+    ]
+  }
+}
